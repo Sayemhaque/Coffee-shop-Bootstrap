@@ -58,6 +58,16 @@ header{
     color: #fdfdfd;
 }
 
+.cart-btn{
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    margin-right: 19px;
+    border: 1px solid #fdfdfd;
+    background-color: #000000;
+    color: #fdfdfd;
+   
+}
 
 .fs-1 span{
     color: #fdfdfd;
@@ -73,5 +83,5 @@ header{
 
 
 .menu-item{
-    background-color: rgba(236, 128, 128, 0.61);
+    background-color: #000000;
 }
