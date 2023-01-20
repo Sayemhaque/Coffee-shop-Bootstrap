@@ -62,3 +62,16 @@ header{
 .fs-1 span{
     color: #fdfdfd;
 }
+
+
+
+.nav-link {
+    display: block;
+    color: #000000;
+}
+
+
+
+.menu-item{
+    background-color: rgba(236, 128, 128, 0.61);
+}

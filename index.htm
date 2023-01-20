@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <header>
+    <header class="mb-5">
       <div class="container">
         <nav class="navbar navbar-expand-lg  bg-nav">
           <div class="container-fluid">
@@ -69,7 +69,67 @@
       
     </header>
 
-    <main></main>
+    <main>
+    <section class="mb-5">
+    <div class="container">
+      <p class="text-center fs-1">Our Menu</p>
+
+      <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Coffee</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Juice</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Ice Cream</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+      <div class="row mt-5 d-flex justify-content-center  row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3">
+        <div class="col menu-item p-3">
+          <img class="img-fluid " src="./images/coffee/photo-1519333796630-4b7d19ad1bb3.avif" alt="">
+         <div class="mt-3 d-flex flex-column">
+          <h2>Best coffee</h2>
+          <p>Price:$100</p>
+          <p class="text-secondary">Best coffee in the world.Neymer tried our coffee.He loved it.</p>
+          <button class="banner-btn">Add To cart</button>
+         </div>
+        </div>
+        
+        <div class="col menu-item p-3">
+          <img class="img-fluid " src="./images/coffee/photo-1519333796630-4b7d19ad1bb3.avif" alt="">
+         <div class="mt-3 d-flex flex-column">
+          <h2>Best coffee</h2>
+          <p>Price:$100</p>
+          <p class="text-secondary">Best coffee in the world.Neymer tried our coffee.He loved it.</p>
+          <button class="banner-btn">Add To cart</button>
+         </div>
+        </div>
+        <div class="col menu-item p-3">
+          <img class="img-fluid " src="./images/coffee/photo-1519333796630-4b7d19ad1bb3.avif" alt="">
+         <div class="mt-3 d-flex flex-column">
+          <h2>Best coffee</h2>
+          <p>Price:$100</p>
+          <p class="text-secondary">Best coffee in the world.Neymer tried our coffee.He loved it.</p>
+          <button class="banner-btn">Add To cart</button>
+         </div>
+        </div>
+      </div>
+         
+          
+        </div>
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+          <img class="img-fluid py-3" src="./images/team3.png" alt="">
+        </div>
+        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+          <img class="img-fluid py-3" src="./images/team4.png" alt="">
+        </div>
+      </div>
+    </div>
+    </section>
+    </main>
 
     <!-- Bootstrap js -->
     <script
