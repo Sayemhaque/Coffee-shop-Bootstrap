@@ -73,7 +73,9 @@ header{
     color: #fdfdfd;
 }
 
-
+.text-menu{
+    color: rgb(207, 202, 202);
+}
 
 .nav-link {
     display: block;
