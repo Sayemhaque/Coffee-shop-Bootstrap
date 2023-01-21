@@ -12,16 +12,19 @@ header{
     background-image: url("../images/Trendy Website Homepage Accessories Sale Banner (1).jpg");
     height: 100%;
     background-repeat: no-repeat;
-    background-position: 20%;
+    background-position: 90%;
     background-size: cover;
     
 }
 .text-description{
-    color:#000000c4;
-    background-image: linear-gradient(to top right , rgba(32, 23, 23, 0.034),rgba(233, 233, 233, 0.445));
+    color:#000000;
+    background-image: linear-gradient(to top right , rgba(255, 255, 255, 0.034),rgb(236, 232, 232));
 }
 
 
+.bg-support{
+    background-color: #000000;
+}
 
 .navbar-brand{
     color: #000000;
@@ -86,4 +89,9 @@ header{
 
 .menu-item{
     background-color: #000000;
+}
+
+
+.text-pale-gray{
+    color: #F5F5F5;
 }
